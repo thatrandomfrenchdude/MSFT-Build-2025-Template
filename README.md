@@ -9,6 +9,7 @@ It is designed to help you set up and run the workshop with ease. The template i
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Important Notes](#important-notes)
+- [License](#license)
 
 ## Prerequisites
 - Python 3.8 or later
