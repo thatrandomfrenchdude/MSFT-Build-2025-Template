@@ -1,0 +1,4 @@
+openai==1.76.0
+prettyprinter==0.18.0
+PyYAML==6.0.2
+requests==2.32.3
