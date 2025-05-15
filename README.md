@@ -55,7 +55,14 @@ It is designed to help you set up and run the workshop with ease. The template i
     ```
 
 ## Important Notes
-- It is recommended that you choose a simple, lowercase name for the AnythingLLM workspace slug for ease of use. Special characters and spaces may cause issues. Should you prefer to use a more complex name, you can confirm the slug using `src/chatbot_src/anything_llm_tools/workspaces.py`.
+***AnythingLLM Workspace Naming***<br>
+It is recommended that you choose a simple, lowercase name for the AnythingLLM workspace slug for ease of use. Special characters and spaces may cause issues. Should you prefer to use a more complex name, you can confirm the slug using `src/chatbot_src/anything_llm_tools/workspaces.py`.
+
+***AnythingLLM Missing Model***<br>
+Sometimes the selected model fails to download causing an error in the generation. To resolve, check the model in Settings -> AI Providers -> LLM in AnythingLLM. You should see "uninstall" on the model card if it is installed correctly. If you see "model requires download," choose another model, click save, switch back, then save. You should see the model download in the upper right corner of the AnythingLLM window.
+
+***AnythingLLM Qualcomm QNN Runtime Missing***<br>
+On a device with Snapdragon X Elite, Qualcomm QNN should be the default LLM Provider. If you do not see Qualcomm QNN as an option on the dropdown, you downloaded the AMD64 version of AnythingLLM. Delete the app and install the ARM64 version instead.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
