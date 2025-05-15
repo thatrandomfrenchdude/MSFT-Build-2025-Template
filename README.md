@@ -1,8 +1,6 @@
 # Microsoft Build Edge AI Workshop Template
 
-This repository contains a template for my Microsoft Build Edge AI Workshop on 21 May 2025 at 9:00am.
-
-It is designed to help you set up and run the workshop with ease. The template includes all the necessary files and instructions to get started quickly.
+This repository contains a template for my Microsoft Build Edge AI Workshop on 21 May 2025 at 9:00am. It is designed to help you set up and run the workshop with ease. The template includes all the necessary files and instructions to get started quickly.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
