@@ -38,7 +38,7 @@ This repository contains a template for my Microsoft Build Edge AI Workshop on 2
     LM_STUDIO_URL: "http://localhost:1234/v1"
     MODEL: "hugging-quants/llama-3.2-3b-instruct"
     ```
-4. During the workshop, replace the `pass` statements in `src/chatbot_src/chatbot.py` and `src/agent_main.py` with code for the chat loop and agent loop respectively. You can reference the complete code with no changes needed here:
+4. During the workshop, replace the `pass` statements in `src/chatbot_src/chatbot.py` and `src/agent_src/agent.py` with code for the chat run loop and agent run loop respectively. You can reference the complete code with no changes needed here:
     - [Simple NPU Chatbot](https://github.com/thatrandomfrenchdude/simple-npu-chatbot)
     - [Local Agent](https://github.com/thatrandomfrenchdude/local-agent)
 

@@ -22,29 +22,4 @@ class Agent:
         self,
         user_input: str,
     ) -> str:
-        history = [
-            {"role": "system", "content": self.instructions},
-            {"role": "user", "content": user_input}
-        ]
-        tool_call_pattern = re.compile(r"^(\w+)\((.*)\)$", re.DOTALL)
-
-        # call the model with the initial request
-        response = self.model.chat_completion(history)
-        
-        # check the output for a response
-        match = tool_call_pattern.match(response.strip())
-        
-        if match:
-            # call tool if a tool call is found
-            name, arg = match.groups()
-            tool = self.tools.get(name)
-            if tool:
-                # Handle tools with or without arguments
-                result = tool.run(arg) if arg else tool.run("")
-                history.append({"role": "assistant", "content": response})
-                history.append({"role": "tool", "content": result})
-                return result.strip()
-        else:
-            # Not a tool call: treat as final answer
-            history.append({"role": "assistant", "content": response})
-            return response.strip()
+        pass # Placeholder for the Agent run function to be implemented in the workshop
